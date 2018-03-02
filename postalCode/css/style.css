@@ -1,0 +1,179 @@
+*{
+	box-sizing: border-box;
+
+	color: black;
+	width: 100%;
+	margin: 0 auto;
+
+}
+html{
+
+		background-color: rgb(4,23,22);
+}
+
+header div{
+	width: 80%;
+	margin: 1% auto;
+}
+header h1 b{
+	color: white;
+}
+header h1{
+	color: white;
+	font-family: "Myriad Pro";
+}
+header h2{
+	color: white;
+	font-family: Gadugi;
+	font-weight: lighter;
+
+
+}
+main .mainBox{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+main .mainBox .box1{
+	width: 60%;
+
+	height: 40%;
+	float: left;
+	border: 2px solid black;
+	
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+main .mainBox .box2{
+	width: 25%;
+	height: 30%;
+	border: 2px solid #990000;
+	background-color: #990000;
+	opacity: 0.8;
+	color: black;
+	margin:6% 0;
+	border-radius: 5px;
+	float: right;
+}
+
+
+
+#subbox{
+	width: 23%;
+	padding: 0;
+	margin:0; 
+	font-size: 1.3em;
+	font-family: Gadugi;
+	background-color: ghostwhite;
+	border: 2px solid black;
+	transition: background-color 0.7s;
+
+	transition-timing-function: ease-in-out;  
+
+}
+main:hover #subbox{
+	
+	background-color: rgb(4,23,22);
+	border: 2px solid #990000;
+	
+}
+
+#subbox h3{
+	font-weight: lighter;
+}
+
+main:hover h3{
+	color:red;
+}
+.box1 div{
+
+	border-bottom: 2px solid #990000;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.box1 label{
+	color: white;
+	display: inline;
+	padding-right: 20%;
+	padding-left: 5%;
+	font-size: 1.4em;
+	font-family: "Copperplate Gothic Light";
+}
+ select{
+ 	font-size: 1.2em;
+	width: 20%;
+	height: 10%;
+	font-family: "Copperplate Gothic Light";
+	background-color: #990000;
+	opacity: 0.8;
+}
+ option:hover{
+	background-color: rgb(4,23,22);
+	color:white;
+}
+
+.ruleMe{
+	height: 10px;
+	width: 100%;
+	border-bottom: 2px solid #990000;
+
+	
+}
+
+#selectTown,#selectArea,#selectStreet{
+	display: none;
+}
+
+.box2 h2{
+	border-bottom: 3px solid black;
+	background-color: white;
+	font-family: "Copperplate Gothic Light";
+	border-radius: 5px;
+}
+
+.box1 #buttons{
+	text-align: center;
+}
+.box1 div button{
+	height: 40px;
+	width: 100px;
+	border-radius: 7px;
+}
+footer{
+	clear: left;
+	width: 	80%;
+	margin: 0 auto;
+	
+
+}
+
+footer div{
+		margin-top:  10%;
+		width: 	33%;
+		height: auto;
+		float: left;
+		color: white;
+
+		
+}
+
+footer div img{
+	width: 15%;
+	height: auto;
+	padding-right: 10%;
+
+
+}
+
+footer div h2{
+	color: white;
+	font-family: Gadugi;
+	font-weight: lighter;
+	font-size: 1.0em;
+}
+
+.verticalRule{
+	border-right: 3px solid red;
+}
+

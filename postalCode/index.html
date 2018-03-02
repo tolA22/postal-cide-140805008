@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>Postal Code | Finder </title>
+</head>
+<body>
+	<header>
+		<div>
+			<h1><b>POSTAL SERVICE</b></h1>
+			<h2>POSTCODE LOOKUP SYSTEM</h2>
+		</div>
+		
+		<div class="ruleMe"></div>
+	</header>
+	<main>
+		<div class="mainBox">
+			<div id="subbox">
+					<h3>SEARCH POSTAL CODE</h3>	
+			</div>
+			<div class="box1">
+				
+				<div>
+					<label>
+						State
+					</label>
+					<select id="selectState" onclick="getState(this)" onfocus="closeOthers(this)">
+						<option value="select State">Select State</option>
+						<option value="Abia">Abia</option>
+						<option value="Adamawa">Adamawa</option>
+						<option value="AkwaIbom">Akwa Ibom</option>
+						<option value="Anambra">Anambra</option>
+						<option value="Bauchi">Bauchi</option>
+						<option value="Bayelsa">Bayelsa</option>
+						<option value="Benue">Benue</option>
+						<option value="Borno">Borno</option>
+						<option value="CrossRiver">Cross River</option>
+						<option value="Delta">Delta</option>
+						<option value="Ebonyi">Ebonyi</option>
+						<option value="Edo">Edo</option>
+						<option value="Ekiti">Ekiti</option>
+						<option value="Enugu">Enugu</option>
+						<option value="FCT">FCT</option>
+						<option value="Gombe">Gombe</option>
+						<option value="Imo">Imo</option>
+						<option value="Jigawa">Jigawa</option>
+						<option value="Kaduna">Kaduna</option>
+						<option value="Kano">Kano</option>
+						<option value="Katsina">Katsina</option>
+						<option value="Kebbi">Kebbi</option>
+						<option value="Kogi">Kogi</option>
+						<option value="Kwara">Kwara</option>
+						<option value="Lagos">Lagos</option>
+						<option value="Nasarawa">Nasarawa</option>
+						<option value="Niger">Niger</option>
+						<option value="Ogun">Ogun</option>
+						<option value="Ondo">Ondo</option>
+						<option value="Osun">Osun</option>
+						<option value="Oyo">Oyo</option>
+						<option value="Plateau">Plateau</option>
+						<option value="Rivers">Rivers</option>
+						<option value="Sokoto">Sokoto</option>
+						<option value="Taraba">Taraba</option>
+						<option value="Yobe">Yobe</option>
+						<option value="Zamfara">Zamfara</option>
+					</select>
+				</div>
+				<div>
+					<label>
+						Town
+					</label>
+					<select id="selectTown" onclick="getState(this)" onfocus="closeOthers(this)">
+							
+					</select>
+				</div>
+				<div>
+					<label>
+						AREA
+					</label>
+					<select id="selectArea" >
+						
+					</select>
+				</div>
+				<div>
+					<label>
+						STREET
+					</label>
+					<select id="selectStreet">
+						
+					</select>
+				</div>
+				<div id="buttons">	
+						<button>SHOW CODE</button>
+				</div>
+			</div>
+			
+			<div class="box2">
+				<h2>Help</h2>
+				<p>	To retrieve the postcode of your desired location (Urban Location), select designated state from State list and drill down to the appropriate Town, Area, Street. etc.</p>
+				<p style="color: white"> STATES AND TOWNS ARE FILLED COMPLETELY, AREA IS FILLED UP TO LAGOS STATE. TIME CONNSTRAINT. I HOPE IT PERFORMS THE FUNCTION YOU ASKED FOR.	</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+	
+			<div class="verticalRule">
+			<a href=""><img src="img/facebook.svg"></a> 
+
+			<a href=""><img src="img/twitter.svg"></a>
+			<a href=""><img src="img/instagram.svg"></a>
+			<br>
+			<br>
+			<br>
+			<h2>&copy 2018- tolizu4shizu webAssignment2 <br><br><br>08153399186</h2>
+		</div>
+		<div>
+			<h2>Also check out my calculator via this link:</h2>
+			<a href=""><h2>Online Calculator</h2></a>
+
+		</div>
+			
+	
+		
+	</footer>
+</body>
+</html>
